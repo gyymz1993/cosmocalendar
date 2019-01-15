@@ -146,7 +146,7 @@ public final class CalendarUtils {
     }
 
     public static int getDisplayWidth(Context context) {
-        return ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay().getWidth()/2;
+        return (((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay().getHeight()/12)*5;
     }
 
     /**
